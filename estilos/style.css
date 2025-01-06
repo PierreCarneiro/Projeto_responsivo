@@ -22,16 +22,31 @@ main{
 
 header {
   background-color: gray;
-  padding: .5rem 1rem 0.2rem 3.5rem;
+  padding: .5rem 0rem 0.2rem 0rem;
 }
 
 header h1 {
+  text-align: center;
   color:white;
   font-size: 1.5rem;
 }
 
-menu {
+span#iconemenu {
+  background-color: rgb(60, 60, 60);
+  color: white;
   display: block;
+  text-align: center;
+  padding:.5rem;
+  cursor:pointer;
+}
+
+span#iconemenu:hover {
+  background-color: rgb(253, 252, 252);
+  color: rgb(12, 12, 12);
+}
+
+menu {
+  display: none;
 }
 
 menu ul {
@@ -39,12 +54,12 @@ menu ul {
 }
 
 menu ul li a {
-  width: 86.7vw;
+  width: 98vw;
   display: block;
   padding: 0.5rem 0;
   text-decoration: none;
   text-align: center;
-  background-color:rgb(86, 85, 85);
+  background-color:rgb(108, 108, 108);
   color: white;
   border-top: 1px solid gray;
 }
