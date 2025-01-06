@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*Typical Device Breakpoints
+----------------------------
+Pequenas telas:
+/********************************************************	  
+  Device              Size	              Typography
+Small mobile	   | 320px - 480px	    | 14px-16px base
+Large mobile	   | 481px - 767px	    ! 15px-17px base
+Tablet	         | 768px - 1024px	    | 16px-18px base
+Desktop	         | 1025px - 1200px	  | 16px-20px base
+
+*********************************************************/
+
+@media screen and (min-width: 768px) {
+  span#iconemenu {    
+    display: none;    
+  }
+
+  menu {
+    display: block;
+  }
+
+  menu ul li {
+    display: inline-block;
+  }
+
+  main {
+    width: 760px;
+  }
+}
