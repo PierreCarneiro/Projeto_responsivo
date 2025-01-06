@@ -21,7 +21,7 @@ main{
 }
 
 header {
-  height: 5rem;
+
   background-color: gray;
   padding: .5rem 0rem 0.2rem 0rem;
 }
@@ -56,7 +56,7 @@ menu ul {
 }
 
 menu ul li a {
-
+  
   display: block;
   padding: 0.5rem;
   text-decoration: none;
